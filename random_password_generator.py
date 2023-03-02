@@ -1,17 +1,3 @@
-'''First using only upper string
-import random
-import string
-a = int(input("enter the length of your password : - "))
-b = []
-for i in range(0,a) :
-    c = random.choice(string.ascii_uppercase) #if we replace ascii_uppercase to ascii_lowercase
-    b.append(c)                               #then it will generate using lower case character
-x = ""
-for k in b :
-    x += k
-
-print(x)'''
-
 # this is a password generater and checker
 # if you enter your own pass word it will check if it is valid or not
 # if you dont want to create yor pssword it generate password for you under a very specific condition
