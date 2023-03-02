@@ -5,5 +5,5 @@ def generate(a) :
     img.save(f'{b[1]}.png')
     
 
-b = input("paste or enter link to generate qr code ")
+b = input("paste or enter link/number/text to generate qr code ")
 generate(b)
