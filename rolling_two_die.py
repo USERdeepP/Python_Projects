@@ -61,13 +61,13 @@ a = int(input("press 1 to roll die :- "))
 if a == 1:
     output1 = random.randint(1,6)
     output2 = random.randint(1,6)
-    playsound("D:\Python Programs\Projects\die.mp3")
+    playsound("die.mp3")
     print (f'{dice(output1)} \t {dice(output2)}')
     time.sleep(3)
     print("\n its now computers turn \n \n ")
     comp1 = random.randint(1,6)
     comp2 = random.randint(1,6)
-    playsound("D:\Python Programs\Projects\die.mp3")
+    playsound("die.mp3")
     print(f"{dice(comp1)} \t {dice(comp2)}")
     player = output1 + output2
     computer = comp1 + comp2
