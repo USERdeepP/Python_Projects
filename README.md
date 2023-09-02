@@ -14,9 +14,6 @@ This Repository contain all beginar friendly Python projects
 6. *whoislookup.py* this will retrive whois data of the given url
 7. *youtubedownloade.py* this will help you download youtube video
 
-
-
-
 *Note*
 
 In `rolling_two_die.py` you need to replace _YOUR_PATH_ to the path of 
